@@ -1,1 +1,65 @@
+Quick Start Guide: GitHub.com
+Platform: Desktop browser, English interface Audience: A first-time GitHub user who is already signed in.
 
+Task Create one private repository that includes a README file.
+
+Prerequisites You need an account, and you need permission to create a repository. For a personal account, this access is automatic; for an organization account, you may need to request it.
+
+Steps
+
+You should sign in to your account on GitHub.com.
+Click the plus on the top right, then click new repository.
+Put in the name of the repository. It is a good idea to use lowercase letters and hyphens.
+For visibility, pick the private choice so other people can't see it.
+Tick the box to add a README so the project has a README.
+Hit create to finish the process.
+Success If everything worked, the new repository will show the README at the bottom of the file list.
+
+Later use This repository can hold documentation for your project.
+
+2. Six Style Rules (before / after)
+#	Style rule	Before	After
+1	Use the imperative mood. Begin each step with a clear verb, not "you should".	You should sign in to your account on GitHub.com.	Sign in to GitHub.com.
+2	Use explicit nouns. Replace vague labels ("the plus", "the box") with the exact control name.	Click the plus on the top right.	Open the + menu.
+3	Match interface text exactly and bold UI labels. Reuse the words the reader sees on screen.	For visibility, pick the private choice.	Under Visibility, select Private.
+4	One action per step. Don't fold several actions into a single sentence.	Name the repository, choose visibility, and add a README.	Type a name in the Repository name field (one step).
+5	Use plain, literal language. Avoid idioms and informal verbs ("tick", "hit", "put in").	Hit create to finish the process.	Select Create repository.
+6	End with a visible, verifiable result check. State the outcome and what to do if it fails.	If everything worked, the new repository will show the README.	The repository page opens and shows the README below the file list. If the README does not appear, refresh the page and confirm that you selected Add a README file in step 5.
+3. Revised Guide (after)
+Quick Start Guide: GitHub.com
+Platform: Desktop browser, English interface Audience: A first-time GitHub user who is already signed in.
+
+Task Create a private repository with a README.
+
+Prerequisites
+
+A GitHub account
+Permission to create a repository
+Steps
+
+Sign in to GitHub.com.
+In the top-right corner, open the + menu and select New repository.
+In the Repository name field, type a short, unique name. Use lowercase letters and hyphens instead of spaces.
+Under Visibility, select Private so only you can see the repository.
+Select the Add a README file checkbox.
+Select Create repository.
+Result check The repository page opens and shows the README below the file list. If the README does not appear, refresh the page and confirm that you selected Add a README file in step 5.
+
+Later use Use this private repository to store project documentation and code.
+
+4. Change Record (9 changes)
+#	Change	Rule applied
+1	Prerequisites reworded into a bulleted list; removed the redundant "you need … and you need …".	5
+2	Step 1: "You should sign in to your account on GitHub.com." → "Sign in to GitHub.com."	1
+3	Step 2: "Click the plus on the top right, then click new repository." → "open the + menu and select New repository."	2, 3
+4	Step 3: "Put in the name… It is a good idea to use lowercase letters and hyphens." → "In the Repository name field, type a short, unique name…"	3, 5
+5	Step 4: "pick the private choice so other people can't see it." → "Under Visibility, select Private so only you can see the repository."	3, 5
+6	Step 5: "Tick the box to add a README…" → "Select the Add a README file checkbox."	3, 5
+7	Step 6: "Hit create to finish the process." → "Select Create repository."	5
+8	"Success" heading renamed to Result check; added a recovery step and bolded the control name.	6
+9	"Later use: This repository can hold documentation…" → active voice "Use this private repository to store project documentation and code."	5
+5. Peer Comment
+Peer feedback: "Step 2 only says 'click the plus' — I had to search for where the new-repository control actually is, because there is no button literally labeled 'plus'. Walking me through + menu → New repository and bolding the on-screen labels would let a first-time user follow without guessing. Also, 'hit create' reads informal; 'select Create repository' feels more like a manual."
+
+6. Result Check
+Result check: After completing Step 6, the repository page must open and display the README below the file list. If the README does not appear, refresh the page and confirm that the Add a README file checkbox was selected in Step 5 before retrying Step 6.
